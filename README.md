@@ -25,7 +25,7 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
 
 - ¿Cuál operador me permite sumar o concatenar?
 
-    
+    Usamos el operador `+`, suma o concatena, dependiendo del tipo de dato de las variables.
 
 ### 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
 - Nombre
