@@ -20,7 +20,12 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
     Cuando declaramos una variable, solo le asignando un espacio en memoria, pero al inicializarla se da un valor y declarara el tipo de dato automáticamente; en caso de no inicializarla, se le asignara el valor undefined.
   
 - ¿Cuál es la diferencia entre sumar números y concatenar strings?
+
+    Al sumar datos numéricos estamos haciendo una operación matemática donde obtenemos un resultado según los valores ingresados, mientras que al concatenar strings, estamos uniendo los textos.
+
 - ¿Cuál operador me permite sumar o concatenar?
+
+    
 
 ### 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
 - Nombre
