@@ -1,3 +1,4 @@
+# Test de JavaScript
 ## Instrucciones para tomar esta prueba
 - Evalúa muy críticamente tu conocimiento.
 - Si logras resolver la prueba, no importa cuánto te cueste, puedo asegurarte que tienes todo para continuar a las siguientes clases y tomar el resto del curso.
