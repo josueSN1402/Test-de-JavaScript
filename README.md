@@ -11,19 +11,19 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
 
 ## Variables y operaciones
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-- ¿Qué es una variable y para qué sirve?
+- **¿Qué es una variable y para qué sirve?**
 
     Una variable es un valor que ocupa un espacio en memoria, este valor tiene un tipo de dato (String, Number, Bolean, etc.), podemos usarla para llamar ese valor cuando sea necesario, pero donde podrá ser llamada, depende del alcance (Scope) que tenga. Las variables se definen con las palabras reservadas _var_, _let_ y _const_, sin embargo, debemos tener cuidado con el tipo de dato, porque JavaScript es un lenguaje dinámico y está sujeto a la coerción.
 
-- ¿Cuál es la diferencia entre declarar e inicializar una variable?
+- **¿Cuál es la diferencia entre declarar e inicializar una variable?**
   
     Cuando declaramos una variable, solo le asignando un espacio en memoria, pero al inicializarla se da un valor y declarara el tipo de dato automáticamente; en caso de no inicializarla, se le asignara el valor undefined.
   
-- ¿Cuál es la diferencia entre sumar números y concatenar strings?
+- **¿Cuál es la diferencia entre sumar números y concatenar strings?**
 
     Al sumar datos numéricos estamos haciendo una operación matemática donde obtenemos un resultado según los valores ingresados, mientras que al concatenar strings, estamos uniendo los textos.
 
-- ¿Cuál operador me permite sumar o concatenar?
+- **¿Cuál operador me permite sumar o concatenar?**
 
     Usamos el operador `+`, suma o concatena, dependiendo del tipo de dato de las variables.
 
@@ -45,9 +45,9 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
 
 ## Funciones
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-- ¿Qué es una función?
-- ¿Cuándo me sirve usar una función en mi código?
-- ¿Cuál es la diferencia entre parámetros y argumentos de una función?
+- **¿Qué es una función?**
+- **¿Cuándo me sirve usar una función en mi código?**
+- **¿Cuál es la diferencia entre parámetros y argumentos de una función?**
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 ```js
@@ -60,9 +60,9 @@ console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + n
 ```
 ## Condicionales
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-- ¿Qué es un condicional?
-- ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
-- ¿Puedo combinar funciones y condicionales?
+- **¿Qué es un condicional?**
+- **¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?**
+- **¿Puedo combinar funciones y condicionales?**
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 ```js
@@ -89,10 +89,10 @@ switch (tipoDeSuscripcion) {
 
 ## Ciclos
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-- ¿Qué es un ciclo?
-- ¿Qué tipos de ciclos existen en JavaScript?
-- ¿Qué es un ciclo infinito y por qué es un problema?
-- ¿Puedo mezclar ciclos y condicionales?
+- **¿Qué es un ciclo?**
+- **¿Qué tipos de ciclos existen en JavaScript?**
+- **¿Qué es un ciclo infinito y por qué es un problema?**
+- **¿Puedo mezclar ciclos y condicionales?**
 
 ### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 ```js
@@ -111,10 +111,10 @@ for (let i = 10; i >= 2; i--) {
 
 ## Listas
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-¿Qué es un array?
-¿Qué es un objeto?
-¿Cuándo es mejor usar objetos o arrays?
-¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+- **¿Qué es un array?**
+- **¿Qué es un objeto?**
+- **¿Cuándo es mejor usar objetos o arrays?**
+- **¿Puedo mezclar arrays con objetos o incluso objetos con arrays?**
 
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
@@ -123,7 +123,7 @@ for (let i = 10; i >= 2; i--) {
 ### 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
 
 ## ¿Cómo te fue? 🏆
-**¡Felicidades por completar la prueba de JavaScript! ** Confío en que hayas completado cada paso y hayas pausado para repasar los temas de los ejercicios que se te complicaron.
+**¡Felicidades por completar la prueba de JavaScript!** Confío en que hayas completado cada paso y hayas pausado para repasar los temas de los ejercicios que se te complicaron.
 
 Ahora sí, continúa a la siguiente clase, pero recuerda que **ya no puedes abandonar el curso**, debes completarlo hasta el final. No importa cuánto tiempo te tome. **Yo sé que tú puedes. Y tú deberías de saberlo también.**
 
