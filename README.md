@@ -16,6 +16,9 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
     Una variable es un valor que ocupa un espacio en memoria, este valor tiene un tipo de dato (String, Number, Bolean, etc.), podemos usarla para llamar ese valor cuando sea necesario, pero donde podrá ser llamada, depende del alcance (Scope) que tenga. Las variables se definen con las palabras reservadas _var_, _let_ y _const_, sin embargo, debemos tener cuidado con el tipo de dato, porque JavaScript es un lenguaje dinámico y está sujeto a la coerción.
 
 - ¿Cuál es la diferencia entre declarar e inicializar una variable?
+  
+    Cuando declaramos una variable, solo le asignando un espacio en memoria, pero al inicializarla se da un valor y declarara el tipo de dato automáticamente; en caso de no inicializarla, se le asignara el valor undefined.
+  
 - ¿Cuál es la diferencia entre sumar números y concatenar strings?
 - ¿Cuál operador me permite sumar o concatenar?
 
