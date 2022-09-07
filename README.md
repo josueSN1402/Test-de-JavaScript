@@ -354,24 +354,47 @@ while (x) {
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
 ```js
+let array = ["fs", 6, 8, 3, 'dsd'];
+
 function firstElement(array) {
     console.log(array[0]);
 }
 
-firstElement(["fs", 6, 8, 3, 'dsd']);
+firstElement(array);
 ```
 
 ### 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 
 ```js
+let array = [1,6,8,3,"dsd"];
+
 function allElements(array) {
     array.forEach(element => console.log(element));
 }
 
-allElements([1,6,8,3,"dsd"]);
+allElements(array);
 ```
 
 ### 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+```js
+let estudiante = {
+    nombre: 'Carlos',
+    apePaterno: 'Rojas',
+    apeMaterno: 'Tapia',
+    edad: 15,
+    grado: '3ro',
+    nivel: 'Secundaria',
+};
+
+function allElements(object) {
+    Object.entries(object).forEach(([key, value]) => {
+        console.log(`•> ${key.toUpperCase()}: ${value}`);
+    });
+}
+
+allElements(estudiante);
+```
 
 ## ¿Cómo te fue? 🏆
 **¡Felicidades por completar la prueba de JavaScript!** Confío en que hayas completado cada paso y hayas pausado para repasar los temas de los ejercicios que se te complicaron.
