@@ -348,6 +348,9 @@ while (x) {
 
 - **¿Puedo mezclar arrays con objetos o incluso objetos con arrays?**
 
+    Si, es perfectamente posible, tanto objetos en un array, como array con valor de las propiedades de un objeto.
+
+
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
 ### 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
