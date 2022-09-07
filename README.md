@@ -76,6 +76,17 @@ let deudas  = 300;
     Una función, es un bloque de código que podemos llamar en cualquier momento, puede ser de tipo _Declarativa_ o _Expresiva_ y tener o no parámetros.
 
 - **¿Cuándo me sirve usar una función en mi código?**
+
+    Nos sirve cuando tenemos acciones que queremos repetir en cualquier momento y evitar reducancias en el código. Un ejemplo sencillo seria:
+
+    ```js
+    function sumar(x, y) {
+        console.log(`La suma de ${x} y ${y} es igual a ${x + y}`);
+    }
+
+    sumar(3, 5);
+    ```
+
 - **¿Cuál es la diferencia entre parámetros y argumentos de una función?**
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
