@@ -137,7 +137,13 @@ saludo('Josue', 'Sanchez', 'josueSN1402');
     Es una estructura que permite ejecutar determinado código, dependiendo de si la condición pasada por parámetro se cumple o no, devolviendo un valor Boleano.
 
 - **¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?**
+
+    Existen los condicionles **_if_**, **_else if _**, **_else_** y **_switch_**. **_Switch_** evalua casos según el parámetro que se le pase, mientras que en if evaluamos una o más condiciones.
+
 - **¿Puedo combinar funciones y condicionales?**
+
+    Si, ya que las funciones pueden tener cualquier tipo de código, para repetir su comportamiento, cada vez que se necesite llamarla.
+
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 ```js
