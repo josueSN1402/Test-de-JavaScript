@@ -72,6 +72,9 @@ let deudas  = 300;
 ## Funciones
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - **¿Qué es una función?**
+
+    Una función, es un bloque de código que podemos llamar en cualquier momento, puede ser de tipo _Declarativa_ o _Expresiva_ y tener o no parámetros.
+
 - **¿Cuándo me sirve usar una función en mi código?**
 - **¿Cuál es la diferencia entre parámetros y argumentos de una función?**
 
