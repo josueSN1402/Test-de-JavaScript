@@ -44,7 +44,7 @@ let nombre = 'Josue';
 let apellido = 'Sanchez';
 let nombreUsuario = 'josueSN1402';
 let edad = 20;
-let mail = 'josue.sanchez.nima1402@gmail.com';
+let mail = 'josue.sn402@gmail.com';
 let mayorEdad  = true;
 let dineroAhorrado  = 100;
 let deudas  = 300;
@@ -155,7 +155,7 @@ switch (tipoDeSuscripcion) {
 
 Solución:
 ```js
-const tipoDeSuscripcion = 'Free';
+const tipoDeSuscripcion = 'Basic';
 
 if (tipoDeSuscripcion === 'Free') {
     console.log('Solo puedes tomar los cursos gratis');
@@ -172,6 +172,34 @@ if (tipoDeSuscripcion === 'Free') {
 
 ### 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
+
+**Solución con if (sin else ni else if):**
+```js
+const tipoDeSuscripcion = 'Basic';
+
+if (tipoDeSuscripcion === 'Free') {
+    console.log('Solo puedes tomar los cursos gratis');
+}
+if (tipoDeSuscripcion === 'Basic') {
+    console.log('Puedes tomar casi todos los cursos de Platzi durante un mes');
+}
+if (tipoDeSuscripcion === 'Expert') {
+    console.log('Puedes tomar casi todos los cursos de Platzi durante un año');
+}
+if (tipoDeSuscripcion === 'ExpertPlus') {
+    console.log(
+        'Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año'
+    );
+}
+if (
+    tipoDeSuscripcion !== 'Free' &&
+    tipoDeSuscripcion !== 'Basic' &&
+    tipoDeSuscripcion !== 'Expert' &&
+    tipoDeSuscripcion !== 'ExpertPlus'
+) {
+    console.log('El tipo de suscripción ingresado no es valido');
+}
+```
 
 ## Ciclos
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
