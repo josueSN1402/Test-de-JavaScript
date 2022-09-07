@@ -306,7 +306,7 @@ while (x) {
     let array3 = [
       { name: 'José Atonio', age: 23 },
       { name: 'Roberto Carlos', age: 19 },
-      { name: 'Marco Aurelio', age: 27 },
+      { name: 'Marco Aurelio', age: 27 }
     ];
     ```
 
@@ -322,7 +322,29 @@ while (x) {
 
 - **¿Cuándo es mejor usar objetos o arrays?**
 
-    
+    Depende de la situación, los array los usaremos para agrupar datos y los objetos cuando necesitemos que los datos esten mejor relacionados, como esto:
+
+    ```js
+    let estudiante = {
+        nombre: 'Carlos',
+        apePaterno: 'Rojas',
+        apeMaterno: 'Tapia',
+        edad: 15,
+        grado: '3ro',
+        nivel: 'Secundaria'
+    };
+    ```
+
+    Sin embargo, siempre podemos agrupar varios objetos dentro de un array como hice anteriormente en el ejemplo de arriba ☝️ (lo copiare y pegare mejor :3)
+
+    ```js
+    // ...
+    let array3 = [
+      { name: 'José Atonio', age: 23 },
+      { name: 'Roberto Carlos', age: 19 },
+      { name: 'Marco Aurelio', age: 27 }
+    ];
+    ```
 
 - **¿Puedo mezclar arrays con objetos o incluso objetos con arrays?**
 
