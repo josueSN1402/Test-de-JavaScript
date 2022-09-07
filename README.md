@@ -304,14 +304,26 @@ while (x) {
     let array1 = [1, 2, 3, 4, 5];
     let array2 = ['Mandarina', 'Tomate', 'Pollo', 'Uña de T-Rex', 'Maíz'];
     let array3 = [
-      { name: 'José Atonio', edad: 23 },
-      { name: 'Roberto Carlos', edad: 19 },
-      { name: 'Marco Aurelio', edad: 27 },
+      { name: 'José Atonio', age: 23 },
+      { name: 'Roberto Carlos', age: 19 },
+      { name: 'Marco Aurelio', age: 27 },
     ];
     ```
 
 - **¿Qué es un objeto?**
+
+    Un **objeto** es una colección de datos, que se relacionan con un nombre y valor, como a continuación:
+
+    ```js
+    let object1 = { name: 'Michi', age: 2, type: 'Gato' };
+    let object2 = { name: 'Zeus', age: 1, type: 'Canraio' };
+    let object3 = { name: 'Loki', age: 3, type: 'Perro' };
+    ```
+
 - **¿Cuándo es mejor usar objetos o arrays?**
+
+    
+
 - **¿Puedo mezclar arrays con objetos o incluso objetos con arrays?**
 
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
