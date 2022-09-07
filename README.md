@@ -251,6 +251,7 @@ suscripcion.forEach(suscripcion => {
 
 
 ### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+
 ```js
 for (let i = 0; i < 5; i++) {
     console.log("El valor de i es: " + i);
@@ -258,6 +259,22 @@ for (let i = 0; i < 5; i++) {
 
 for (let i = 10; i >= 2; i--) {
     console.log("El valor de i es: " + i);
+}
+```
+
+Solución:
+
+```js
+let i = 0;
+while (i < 5) {
+  console.log('El valor de i es: ' + i);
+  i += 1;
+}
+
+i = 10;
+while (i >= 2) {
+  console.log('El valor de i es: ' + i);
+  i -= 1;
 }
 ```
 
