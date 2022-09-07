@@ -238,7 +238,13 @@ suscripcion.forEach(suscripcion => {
     Es una estructura que hace que el código dentro se repita multiples veces, hasta que se cumpla una condición.
 
 - **¿Qué tipos de ciclos existen en JavaScript?**
+
+    Existen los ciclos while, for, for...in, for...of y do...while
+
 - **¿Qué es un ciclo infinito y por qué es un problema?**
+
+
+
 - **¿Puedo mezclar ciclos y condicionales?**
 
 ### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
