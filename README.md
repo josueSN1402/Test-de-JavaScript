@@ -201,6 +201,36 @@ if (
 }
 ```
 
+**Solución del Bonus:**
+```js
+// No soy experto, así que no se que tal quedo, pero lo intente 😅
+
+const tipoDeSuscripcion = 'Basic';
+
+const suscripcion = [
+    { type: 'Free', info: 'Solo puedes tomar los cursos gratis' },
+    {
+        type: 'Basic',
+        info: 'Puedes tomar casi todos los cursos de Platzi durante un mes',
+    },
+    {
+        type: 'Expert',
+        info: 'Puedes tomar casi todos los cursos de Platzi durante un año',
+    },
+    {
+        type: 'ExpertPlus',
+        info: 'Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año',
+    }
+];
+
+suscripcion.forEach(suscripcion => {
+    if (suscripcion.type === tipoDeSuscripcion) {
+        console.log(suscripcion.info);
+    }
+});
+```
+
+
 ## Ciclos
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - **¿Qué es un ciclo?**
