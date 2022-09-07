@@ -89,6 +89,19 @@ let deudas  = 300;
 
 - **¿Cuál es la diferencia entre parámetros y argumentos de una función?**
 
+    Los parámetros son los valores pasados en los paréntesis al declarar una función, como se muestra aquí:
+    ```js
+    function miFuncion(parametro_01, parametro_02) {
+        // Bloque de código
+    }
+    ```
+
+    Y los argumentos son los valores pasados en los paréntesis al momento de llamar la función, nuevamente como se muestra aquí:
+    ```js
+    miFuncion(argumento_01, argumento_02);
+    ```
+
+
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 ```js
 const name = 'Juan David";
