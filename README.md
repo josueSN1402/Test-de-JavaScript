@@ -127,6 +127,9 @@ saludo('Josue', 'Sanchez', 'josueSN1402');
 ## Condicionales
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - **¿Qué es un condicional?**
+
+    Es una estructura que permite ejecutar determinado código, dependiendo de si la condición pasada por parámetro se cumple o no, devolviendo un valor Boleano.
+
 - **¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?**
 - **¿Puedo combinar funciones y condicionales?**
 
