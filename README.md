@@ -234,6 +234,9 @@ suscripcion.forEach(suscripcion => {
 ## Ciclos
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - **¿Qué es un ciclo?**
+
+    Es una estructura que hace que el código dentro se repita multiples veces, hasta que se cumpla una condición.
+
 - **¿Qué tipos de ciclos existen en JavaScript?**
 - **¿Qué es un ciclo infinito y por qué es un problema?**
 - **¿Puedo mezclar ciclos y condicionales?**
