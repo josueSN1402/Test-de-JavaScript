@@ -280,7 +280,19 @@ while (i >= 2) {
 
 ### 3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
 💡 Pista: puedes usar la función prompt de JavaScript.
+```js
+let x = true;
+while (x) {
+  let userInput = prompt('Hola! Te pregunto, ¿Cuánto es 2 + 2?');
 
+  if (userInput == '4') {
+    alert('¡Felicitaciones! has respondido correctamente');
+    x = false;
+  } else {
+    alert('Al parecer algo fallo, ¡Intentemoslo otra vez!');
+  }
+}
+```
 
 ## Listas
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
