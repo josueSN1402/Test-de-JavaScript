@@ -39,6 +39,17 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
 
 ### 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 
+```js
+let nombre = "Josue";
+let apellido = "Sanchez";
+let nombreUsuario = "josueSN1402";
+let edad = 20;
+let mail = "josue.sanchez.nima1402@gmail.com";
+let mayorEdad  = true;
+let dineroAhorrado  = 100;
+let deudas  = 300;
+```
+
 ### 4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
 - Nombre completo (nombre y apellido)
 - Dinero real (dinero ahorrado menos deudas)
