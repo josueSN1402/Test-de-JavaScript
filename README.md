@@ -3,7 +3,7 @@ Cumplendo con el [Test de JavaScript][Test URL] del [Nuevo Curso Práctico de Ja
 
 [Test URL]: https://platzi.com/clases/3271-javascript-practico/51004-test-de-javascript/
 [Curso URL]: https://platzi.com/cursos/javascript-practico/
-[Platzi URL]: platzi.com/
+[Platzi URL]: https://platzi.com/
 
 ## Instrucciones para tomar esta prueba
 - Evalúa muy críticamente tu conocimiento.
