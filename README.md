@@ -363,6 +363,14 @@ firstElement(["fs", 6, 8, 3, 'dsd']);
 
 ### 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 
+```js
+function allElements(array) {
+    array.forEach(element => console.log(element));
+}
+
+allElements([1,6,8,3,"dsd"]);
+```
+
 ### 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
 
 ## ¿Cómo te fue? 🏆
