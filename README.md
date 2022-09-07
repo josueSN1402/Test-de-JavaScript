@@ -243,7 +243,7 @@ suscripcion.forEach(suscripcion => {
 
 - **¿Qué es un ciclo infinito y por qué es un problema?**
 
-
+    Se denomina ciclo infinito, cuando un bucle no nunca cumple con su la condición para finalizar, esto genera un consumo de recursos muy alto y que se cuelgue el ordenador.
 
 - **¿Puedo mezclar ciclos y condicionales?**
 
