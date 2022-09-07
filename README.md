@@ -28,14 +28,14 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
     Usamos el operador `+`, suma o concatena, dependiendo del tipo de dato de las variables.
 
 ### 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
-- Nombre: String
-- Apellido: String
-- Nombre de usuario en Platzi: String
-- Edad: Number
-- Correo electrónico: String
-- Mayor de edad: Bolean
-- Dinero ahorrado: Number
-- Deudas: Number
+- Nombre: **__String__**
+- Apellido: **__String__**
+- Nombre de usuario en Platzi: **__String__**
+- Edad: **__Number__**
+- Correo electrónico: **__String__**
+- Mayor de edad: **__Bolean__**
+- Dinero ahorrado: **__Number__**
+- Deudas: **__Number__**
 
 ### 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 
