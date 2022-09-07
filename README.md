@@ -138,7 +138,7 @@ saludo('Josue', 'Sanchez', 'josueSN1402');
 
 - **¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?**
 
-    Existen los condicionles **_if_**, **_else if _**, **_else_** y **_switch_**. **_Switch_** evalua casos según el parámetro que se le pase, mientras que en if evaluamos una o más condiciones.
+    Existen los condicionles **_if_**, **_else if_**, **_else_** y **_switch_**. **_Switch_** evalua casos según el parámetro que se le pase, mientras que en if evaluamos una o más condiciones.
 
 - **¿Puedo combinar funciones y condicionales?**
 
