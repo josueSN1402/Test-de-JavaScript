@@ -40,11 +40,11 @@ Recuerda que el éxito no se mide por cuánto tiempo te toma aprender, esa métr
 ### 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 
 ```js
-let nombre = "Josue";
-let apellido = "Sanchez";
-let nombreUsuario = "josueSN1402";
+let nombre = 'Josue';
+let apellido = 'Sanchez';
+let nombreUsuario = 'josueSN1402';
 let edad = 20;
-let mail = "josue.sanchez.nima1402@gmail.com";
+let mail = 'josue.sanchez.nima1402@gmail.com';
 let mayorEdad  = true;
 let dineroAhorrado  = 100;
 let deudas  = 300;
@@ -52,7 +52,22 @@ let deudas  = 300;
 
 ### 4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
 - Nombre completo (nombre y apellido)
+    ```js
+    let nombre = 'Josue';
+    let apellido = 'Sanchez';
+
+    let nombreCompleto = nombre + ' ' + apellido;
+    console.log('•> Nombre completo: ' + nombreCompleto);
+    ```
+
 - Dinero real (dinero ahorrado menos deudas)
+    ```js
+    let dineroAhorrado  = 100;
+    let deudas  = 300;
+
+    let dineroReal = dineroAhorrado - deudas;
+    console.log('•> Dinero real: ' + dineroReal);
+    ```
 
 ## Funciones
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
@@ -62,7 +77,7 @@ let deudas  = 300;
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 ```js
-const name = "Juan David";
+const name = 'Juan David";
 const lastname = "Castro Gallego";
 const completeName = name + lastname;
 const nickname = "juandc";}
