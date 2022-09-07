@@ -103,14 +103,27 @@ let deudas  = 300;
 
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+
 ```js
-const name = 'Juan David";
+const name = "Juan David";
 const lastname = "Castro Gallego";
 const completeName = name + lastname;
-const nickname = "juandc";}
+const nickname = "juandc";
 
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 ```
+
+Solución:
+
+```js
+function saludo(name, lastname, nickname) {
+    const completeName = name + ' ' + lastname;        
+    console.log(`Mi nombre es ${completeName}, pero prefiero que me digas ${nickname}.`);
+}
+
+saludo('Josue', 'Sanchez', 'josueSN1402');
+```
+
 ## Condicionales
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - **¿Qué es un condicional?**
