@@ -247,6 +247,9 @@ suscripcion.forEach(suscripcion => {
 
 - **¿Puedo mezclar ciclos y condicionales?**
 
+    Si, puede anidarse un ciclo en un condicional o viceversa, según lo amerite la situación.
+
+
 ### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 ```js
 for (let i = 0; i < 5; i++) {
