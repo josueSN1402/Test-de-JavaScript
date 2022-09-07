@@ -297,6 +297,19 @@ while (x) {
 ## Listas
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - **¿Qué es un array?**
+
+    Un **array** es una variable que contiene una estructura de datos de diferentes valores, por ejemplo:
+
+    ```js
+    let array1 = [1, 2, 3, 4, 5];
+    let array2 = ['Mandarina', 'Tomate', 'Pollo', 'Uña de T-Rex', 'Maíz'];
+    let array3 = [
+      { name: 'José Atonio', edad: 23 },
+      { name: 'Roberto Carlos', edad: 19 },
+      { name: 'Marco Aurelio', edad: 27 },
+    ];
+    ```
+
 - **¿Qué es un objeto?**
 - **¿Cuándo es mejor usar objetos o arrays?**
 - **¿Puedo mezclar arrays con objetos o incluso objetos con arrays?**
