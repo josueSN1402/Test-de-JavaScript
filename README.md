@@ -153,6 +153,23 @@ switch (tipoDeSuscripcion) {
 }
 ```
 
+Solución:
+```js
+const tipoDeSuscripcion = 'Free';
+
+if (tipoDeSuscripcion === 'Free') {
+    console.log('Solo puedes tomar los cursos gratis');
+} else if (tipoDeSuscripcion === 'Basic') {
+    console.log('Puedes tomar casi todos los cursos de Platzi durante un mes');
+} else if (tipoDeSuscripcion === 'Expert') {
+    console.log('Puedes tomar casi todos los cursos de Platzi durante un año');
+} else if (tipoDeSuscripcion === 'ExpertPlus') {
+    console.log('Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año');
+} else {
+    console.log('El tipo de suscripción ingresado no es valido');
+}
+```
+
 ### 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
 
